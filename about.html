@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beauty Shop Website</title>
+
+  <!-- linked stylesheets: Bootstrap, Fontawsome and the main css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Concert+One&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- linked javascript, "defer" attribute is used below in the script tags, to avoid the need of placing them at the bottom 
+    used scripts: bootstrap and fontawsome JS -->
+  <script defer src="js/bootstrap.bundle.min.js"></script>
+  <script defer src="js/all.min.js"></script>
+</head>
+
+<body class="main-body">
+
+
+  <!-- Navigation Start Menu -->
+
+  <Header>
+    <nav class="navbar fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" id="logo-brand"></a>
+        <span class="page-viewed concert-one-regular "> About </span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title concert-one-regular" id="offcanvasNavbarLabel">Beauty Shop - Site Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <!-- Navigation  Menu START -->
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Navigation Menu END -->
+        </div>
+      </div>
+    </nav>
+  </Header>
+
+  <main>
+
+    <!-- Start About text and call to action section -->
+
+    <section>
+      <div class="landing-pusher">
+        <!-- this div is made to push the landing section for the About page below the header to give a white space between them -->
+      </div>
+
+
+      <div class="about-landing d-flex justify-content-center align-items-center">
+        <div class="about-text-container text-center">
+          <h1 class="exo-2-normal fw-bold">Welcome to Rawan Makeup Consmatics</h1>
+          <hr>
+          <h2 class="exo-2-normal fw-bold"> Where beauty meets compassion</h2>
+          <hr>
+          <p class="exo-2-normal">Our Vegan, cruelty-free products offer quality without compromise, empowering
+            individuals to express themeselves authentically.</p>
+          <p class="exo-2-normal">Join us on this journey as we redefine beauty standards and make a positive impact one
+            brushstroke at a time.</p>
+          <a class=" btn btn-primary rounded-pill main-btn concert-one-regular " href="/contact.html"> LEARN MORE </a>
+        </div>
+      </div>
+
+      <div class="landing-pusher-down">
+        <!-- this div is made to push the landing section for the About page above the footer to give a white space between them -->
+      </div>
+    </section>
+
+    <!-- End About text and call to action section -->
+
+
+    <!-- Start profile section  -->
+
+    <section class="cards-section">
+
+      <div class="container">
+        <div class="row">
+
+          <!-- promo 1 -->
+
+          <div class="col-md-4">
+            <div class="card makeup-promo">
+              <img class="card-img-top" src="./images/promos/promo-1-320x320.jpg" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Makeup Techniques & Tips</h4>
+                <p class="card-text">Ready to master the art of makeup? Our personalized sessions cover everything from
+                  essential techniques to choosing the right products for your skin tone and features.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- promo 2 -->
+
+          <div class="col-md-4">
+            <div class="card makeup-promo">
+              <img class="card-img-top" src="./images/promos/promo-2-320x320.jpg" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Transform Your Look</h4>
+                <p class="card-text">Unleash your inner beauty with our expert makeup services. Whether you want a
+                  subtle enhancement or a bold transformation, we'll help you achieve a flawless and radiant look.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- promo 3 -->
+
+          <div class="col-md-4">
+            <div class="card makeup-promo">
+              <img class="card-img-top" src="./images/promos/promo-3-320x320.jpg" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Personalized Makeup Experience</h4>
+                <p class="card-text">Your makeup should be as unique as you are. Book a consultation and let us create a
+                  customized look that celebrates your individual style and enhances your natural beauty.</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+    </section>
+
+
+    <!-- End profile section  -->
+
+
+
+
+
+
+
+
+
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- start footer -->
+  <footer class="footer-sec">
+    <div class="container-fluid">
+      <div class="row">
+        <a href="mailto:rawan.kysn@gmail.com" class="text-center center-block email-contact concert-one-regular"
+          style="text-decoration:none">rawan.kysn@gmail.com</a>
+        <hr>
+        <!--fontawesome icons-->
+        <div class="col-md-12 text-center">
+          <ul class="social">
+            <li><a href="#" class="insta" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#" class="face" title="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#" class="twit" title="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
