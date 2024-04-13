@@ -1,7 +1,6 @@
 This website showcases the original makeup artistry of [Makeup Artist's Name].  It features a portfolio of the artist's work, information about services, and contact details.
 
 I used the mockup that I create in my User Experience Design course but I took this course last year and we were useing UXD not figma. I did but the file but cannot but any link for UXD here
-
 High-Fidelity Wireframes (2).xd
 
 Technologies Used:
