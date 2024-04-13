@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beauty Shop Website</title>
+
+  <!-- linked stylesheets: Bootstrap, Fontawsome and the main css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Concert+One&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- linked javascript, "defer" attribute is used below in the script tags, to avoid the need of placing them at the bottom 
+    used scripts: bootstrap and fontawsome JS -->
+  <script defer src="js/bootstrap.bundle.min.js"></script>
+  <script defer src="js/all.min.js"></script>
+</head>
+
+<body class="main-body">
+
+
+  <!-- Navigation Start Menu -->
+
+  <Header>
+    <nav class="navbar fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" id="logo-brand"></a>
+        <span class="page-viewed concert-one-regular "> Contact </span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title concert-one-regular" id="offcanvasNavbarLabel">Beauty Shop - Site Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <!-- Navigation  Menu START -->
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Navigation Menu END -->
+        </div>
+      </div>
+    </nav>
+  </Header>
+
+  <main>
+    <div id="contact-hero-leadmedia" class="contact-hero-leadmedia">
+      <div class="contact-background-target">
+      </div>
+    </div>
+
+    <div class="contactus-container text-center justify-content-center align-items-center">
+      <div class="contactus-tag">
+        <span class="concert-one-regular contactus-span">Contact Us</span>
+      </div>
+    </div>
+
+    <div class="contactform-container">
+      <div class="form-wrap">
+        <form id="contact-form">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" class="form-control" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" class="form-control"
+                  required>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label>Leave Message</label>
+                <textarea id="comments" class="form-control" name="comment"
+                  placeholder="Enter your Message here..."></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <button type="submit" id="submit" class="btn btn-primary btn-block">Send Feedback</button>
+            </div>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+  </main>
+
+<!-- start footer -->
+<footer class="footer-sec">
+  <div class="container-fluid">
+    <div class="row">
+        <a href="mailto:rawan.kysn@gmail.com" class="text-center center-block email-contact concert-one-regular" style="text-decoration:none">rawan.kysn@gmail.com</a>
+        <hr>
+        <!--fontawesome icons-->
+        <div class="col-md-12 text-center">
+            <ul class="social">
+                <li><a href="#" class="insta" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#" class="face" title="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#" class="twit" title="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</footer>
+<!-- end footer -->
+
+</body>
+
+</html>
